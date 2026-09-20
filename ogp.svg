@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+<title>ロジメモ OGP</title>
+<desc>統計・環境経済・可視化を抽象化したモノクロームの図</desc>
+<defs>
+  <linearGradient id="fade" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#f8f8f7"/>
+    <stop offset="1" stop-color="#eeeeeb"/>
+  </linearGradient>
+  <linearGradient id="hill" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#d9d9d5" stop-opacity=".55"/>
+    <stop offset="1" stop-color="#f3f3f1" stop-opacity=".18"/>
+  </linearGradient>
+  <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+    <feGaussianBlur stdDeviation="5"/>
+  </filter>
+</defs>
+<rect width="1200" height="630" fill="#fbfbfa"/>
+<rect x="8" y="8" width="1184" height="614" fill="none" stroke="#62625e" stroke-width="1"/>
+
+<!-- soft atmospheric layers -->
+<circle cx="190" cy="205" r="125" fill="#ededeb"/>
+<path d="M0 330 C150 270 250 390 390 335 C535 280 665 350 810 315 C930 285 1050 315 1200 265 L1200 630 L0 630 Z" fill="url(#hill)"/>
+<path d="M0 405 C160 350 275 455 430 395 C610 325 760 455 930 390 C1040 350 1125 370 1200 345 L1200 630 L0 630 Z" fill="#dededa" opacity=".28"/>
+<path d="M0 500 C170 430 300 540 470 495 C655 445 780 545 930 485 C1045 438 1120 460 1200 430 L1200 630 L0 630 Z" fill="#cfcfca" opacity=".25"/>
+
+<!-- botanical left -->
+<g fill="none" stroke="#767671" stroke-width="1.5" opacity=".72">
+  <path d="M88 565 C96 485 105 395 140 245"/>
+  <path d="M105 470 C73 445 59 414 58 380"/>
+  <path d="M111 433 C149 412 174 381 188 345"/>
+  <path d="M121 381 C86 351 73 321 75 286"/>
+  <path d="M131 337 C165 319 190 289 201 257"/>
+</g>
+<g fill="#a9a9a4" opacity=".42">
+  <path d="M61 381 C78 383 96 398 105 421 C81 418 64 405 61 381Z"/>
+  <path d="M188 345 C174 347 151 364 138 390 C164 383 183 369 188 345Z"/>
+  <path d="M75 286 C95 289 116 306 125 333 C99 329 79 313 75 286Z"/>
+  <path d="M201 257 C180 260 157 276 145 305 C174 299 195 283 201 257Z"/>
+  <path d="M140 245 C126 221 129 193 145 171 C157 199 155 225 140 245Z"/>
+</g>
+
+<!-- axes and systemic lines -->
+<g fill="none" stroke="#777772" stroke-width="1.2">
+  <path d="M340 500 L340 165 L334 177 M340 165 L346 177"/>
+  <path d="M340 500 L865 500 L851 494 M865 500 L851 506"/>
+</g>
+<path d="M425 215 L785 490" stroke="#444440" stroke-width="2.1" fill="none"/>
+<path d="M420 445 L770 190" stroke="#444440" stroke-width="2.1" fill="none"/>
+<circle cx="595" cy="345" r="6.5" fill="#666661"/>
+<path d="M595 345 V500 M340 345 H595" stroke="#888883" stroke-width="1.1" stroke-dasharray="5 6"/>
+
+<!-- time / discounting curves -->
+<path d="M365 165 C405 265 450 395 850 470" stroke="#777772" stroke-width="1.5" fill="none" opacity=".78"/>
+<path d="M372 165 C430 300 500 410 850 455" stroke="#999994" stroke-width="1.2" fill="none" stroke-dasharray="5 5" opacity=".72"/>
+<path d="M380 165 C470 330 570 430 850 440" stroke="#b2b2ad" stroke-width="1.05" fill="none" opacity=".58"/>
+
+<!-- globe -->
+<g opacity=".48">
+  <circle cx="975" cy="300" r="112" fill="#e3e3df" stroke="#adada8" stroke-width="1"/>
+  <path d="M910 257 C930 238 954 224 980 222 C995 226 1000 239 1015 246 C1032 254 1049 252 1060 266 C1048 279 1040 292 1027 301 C1016 310 1007 324 991 322 C982 313 973 300 961 297 C946 296 932 300 919 294 C914 282 905 270 910 257Z" fill="#b9b9b4"/>
+  <path d="M1008 339 C1023 337 1040 344 1050 355 C1045 371 1034 384 1018 392 C1006 381 997 367 997 352 C1000 346 1003 342 1008 339Z" fill="#b9b9b4"/>
+  <path d="M885 315 C899 309 913 312 922 322 C918 335 907 344 894 347 C886 338 881 327 885 315Z" fill="#b9b9b4"/>
+</g>
+<path d="M870 130 C995 65 1125 110 1155 235" fill="none" stroke="#858580" stroke-width="1.1" opacity=".62"/>
+<g fill="#858580" opacity=".7">
+  <circle cx="935" cy="108" r="6"/>
+  <circle cx="1020" cy="104" r="7"/>
+  <circle cx="1092" cy="137" r="6"/>
+  <circle cx="1142" cy="198" r="7"/>
+</g>
+
+<!-- botanical right -->
+<g fill="none" stroke="#6f6f6a" stroke-width="1.35" opacity=".65">
+  <path d="M1085 565 C1102 490 1115 420 1142 345"/>
+  <path d="M1100 498 C1068 480 1053 459 1048 432"/>
+  <path d="M1108 465 C1136 448 1155 429 1164 405"/>
+  <path d="M1123 414 C1098 397 1087 376 1088 352"/>
+  <path d="M1134 379 C1157 365 1170 347 1176 330"/>
+</g>
+<g fill="#999994" opacity=".36">
+  <path d="M1048 432 C1064 434 1082 447 1094 466 C1073 463 1056 452 1048 432Z"/>
+  <path d="M1164 405 C1148 407 1131 419 1118 440 C1141 436 1158 425 1164 405Z"/>
+  <path d="M1088 352 C1104 355 1118 367 1128 386 C1107 381 1092 370 1088 352Z"/>
+  <path d="M1176 330 C1161 332 1147 343 1138 359 C1157 356 1171 346 1176 330Z"/>
+</g>
+
+<!-- water-like lower accents -->
+<g stroke="#a9a9a4" stroke-width="1" opacity=".32">
+  <path d="M790 520 H1105"/>
+  <path d="M830 532 H1140"/>
+  <path d="M860 544 H1090"/>
+  <path d="M900 556 H1155"/>
+</g>
+</svg>
